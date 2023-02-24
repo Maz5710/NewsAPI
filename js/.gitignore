@@ -1,2 +1,2 @@
-js/config.json
-node_modules
+./js/config.json
+./node_modules
