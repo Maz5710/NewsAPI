@@ -1,18 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Bottstrap 5.3 CSS -->
-    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="./css/style.css">
-    <title>Document</title>
-</head>
-<body class="bg-dark">
 
-    <!-- Search Container -->
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bottstrap 5.3 CSS -->
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./css/style.css">
+  <title>News API Site</title>
+</head>
+
+<body class="bg-dark">
+  <div class="container p-5 row form mt-3 mb-3">
+    <h1 class="text-light">Welcome to Gnews </h1>
+  </div>
+
+  <!-- Search Container Start -->
   <div class="container p-5 row form mt-3 mb-3">
     <div class="form-group col-lg-4 col-md-12 mb-3">
       <select id="countrySelect" class="form-select">
@@ -23,6 +28,9 @@
         <option value="au">Australia</option>
       </select>
     </div>
+      <!-- Search Container End -->
+
+    <!-- Topic Select Start -->
     <div class="form-group col-lg-4 col-md-12 mb-3">
       <select id="topicSelect" class="form-select">
         <option selected disabled>Choose Topic</option>
@@ -32,25 +40,87 @@
         <option value="technology">Technology</option>
       </select>
     </div>
+    <!-- Topic Select End -->
+
+    <!-- Language Select Start -->
+    <div class="form-group col-lg-4 col-md-12 mb-3">
+      <select id="languageSelect" class="form-select">
+        <option selected disabled value="en">Choose Language</option>
+        <option value="zh">Chinese</option>
+        <option value="en">English</option>
+        <option value="de">German</option>
+        <option value="es">Spanish</option>
+      </select>
+    </div>
+    <!-- Language Select End -->
+
+    <!-- Search Button Start -->
     <div class="col-lg-4 col-md-12 d-flex justify-content-center mb-3">
       <input id="searchInput" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-      <button id="searchSubmit" class="btn-danger btn" type="submit">Search</button>
+      <button class="btn-primary btn" type="submit">Search</button>
+    </div>
+    <!-- Search Button End -->
+
+    <!-- About Me Button Start -->
+    <div class="col-lg-4 col-md-12 d-flex mb-3">
+      <button class="btn-primary btn"><a href="#myProfile"></a>My Profile</button>
+    </div>
+    <!-- About Me End -->
+    
+  </div>
+  <!-- Search Container End -->
+
+  <div class="container p-5">
+    <div id="results" class="row">
     </div>
   </div>
-  <!-- Search Container Ends -->
 
-    <div class="container p=-5">
-        <div id="results" class="row">
-
+  <!-- About Container Section Start -->
+  <div id="myProfile" class="container p-5">
+    <div class="row mb-2">
+      <div class="col-md-6">
+        <div class="row g-0 border rounded border-primary-subtle flex-lg-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <!-- Profile Content Start -->
+            <h2 class="mb-0">Marian Arnot</h2>
+            <div class="mb-2"><strong>Web and UX Design Student</strong></div>
+            <p class="profile-text mb-auto"> I currently work at Carbon and
+              Energy Professionals New Zealand (CEP) responsible for office, finance, marketing and web administation.</p> 
+            <p>
+              After gaining a Diploma in Art and Creativity and a Certificate in Accounting, I am continuing
+              my passion for creating and visual story telling studying full-time at Yoobee to gain a Diploma in
+              Web and UX Design, while continuing to work part time at CEP.
+            </p>
+            <i>IT Professionals New Zealand | Student Member</i><br>
+            <img id="bioPhoto"src="./img/marian_arnot.jpg" alt="Marian Arnot">
+            <br>
+            <!-- Profile Content End -->
+            <!-- Social Media Links Start -->
+            <div class="col-3">
+              <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/mazarnot/"
+                target="_blank" role="button"><i class="fa-brands fa-linkedin"></i>
+              </a>
+              <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/Maz5710" target="_blank"
+                role="button"><i class="fa-brands fa-github"></i>
+              </a>
+            </div>
+            <!-- Social Media Links End -->
+          </div>
         </div>
+      </div>
     </div>
-    
+  </div>
+  <!-- About Container Section End Start -->
 
-<!-- Jquery -->
-<script src="./node_modules/jquery/dist/jquery.min.js"></script>
-<!-- Bootstrap 5.3 JS  -->
-<script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-<!-- Custom JS -->
-<script src="./js/script.js"></script>
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/222e21d044.js" crossorigin="anonymous"></script>
+  <!-- Jquery -->
+  <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+  <!-- Bootstrap 5.3 JS  -->
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="./js/script.js"></script>
 </body>
+
 </html>

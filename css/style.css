@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+body #myProfile {
+    font-family: Poppins;
+    color: whitesmoke;
+    line-height: 30px;
+    width: 100%;
+}
+
+#bioPhoto {
+    border-radius: 1%;
+}
+
+.fa-brands {
+    font-size: xx-large;
+    }
