@@ -7,8 +7,20 @@ body #myProfile {
     width: 100%;
 }
 
-#bioPhoto {
-    border-radius: 1%;
+.box {
+    border-radius: 3%;
+}
+
+.navbar .navbar-dark {
+text-align: right;
+}
+
+.h5 {
+    line-height: 30px;
+}
+
+.list-unstyled {
+    text-align: right;
 }
 
 .fa-brands {
