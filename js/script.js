@@ -66,7 +66,7 @@ function mainFunction(myKey) {
                             <img src="${story.image}" class="card-img-top" alt="news image">
                             <div class="card-body">
                                 <h5 class="card-title fw-bold">${story.title}</h5>
-                                <p class="card-text">${story.description}<br><br>Source: <a class="text-success" href="${story.source.url}" target="_blank">${story.source.name}</a><br><br><button class="btn-primary btn"><a class="text-light" href="${story.url} " target="_blank">View full article</a></button></p> 
+                                <p class="card-text">${story.description}<br><br>Source: <a class="text-danger" href="${story.source.url}" target="_blank">${story.source.name}</a><br><br><button class="btn-success btn"><a class="text-light" href="${story.url} " target="_blank">View full article</a></button></p> 
                             </div>
                         </div>
                     </div>`;
@@ -98,7 +98,7 @@ function mainFunction(myKey) {
                             <img src="${story.image}" class="card-img-top" alt="news image">
                             <div class="card-body">
                                 <h5 class="card-title fw-bold">${story.title}</h5>
-                                <p class="card-text">${story.description}<br><br>Source: <a class="text-success" href="${story.source.url}" target="_blank">${story.source.name}</a><br><br><button class="btn-primary btn"><a class="text-light" href="${story.url} " target="_blank">View full article</a></button></p> 
+                                <p class="card-text">${story.description}<br><br>Source: <a class="text-danger" href="${story.source.url}" target="_blank">${story.source.name}</a><br><br><button class="btn-success btn"><a class="text-light" href="${story.url} " target="_blank">View full article</a></button></p> 
                             </div>
                         </div>
                     </div>`;
