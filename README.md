@@ -1,9 +1,9 @@
 # News API and Profile Project
 
-Disclaimer
-The logos and images in this project are the property of theGNews and the profile imgae and information belongs to Marian Arnot . All images have been used for academic purposes only, while studying at Yoobee College. This is not a commercial website and this project code is the property of Marian Arnot.
+## Disclaimer
+The images in this project are the property of the GNews and the profile image and information belongs to Marian Arnot . All images have been used for academic purposes only, while studying at Yoobee College. This is not a commercial website and this project code is the property of Marian Arnot.
 
-Assingment
+## Assingment
 This was an introduction to using API, pulling in news articles from GNews.  
 
 Filter and search functions were incorporated using JavaScript.
